@@ -1,5 +1,5 @@
 # oneManager仿h5ai主题-Mod版本
-### 基于me_oneManager_h5ai进行一些更改
+### 基于theme_oneManager_h5ai进行一些更改
 注意：金丝雀分支不稳定
 ## 简单轻量不浮夸
 
