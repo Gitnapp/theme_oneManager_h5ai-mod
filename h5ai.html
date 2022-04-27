@@ -94,6 +94,18 @@
         input[type="password"] {padding:0 8px;height:35px; border: 1px solid rgba(0,0,0,0.07);vertical-align: top;}
         input[type="submit"] {padding:0 14px; height: 35px; background-color: #eee;cursor: pointer;vertical-align: top;}
         <!--EncryptedEnd-->
+        <!--GuestUploadStart-->
+<div id="upload_div" style="padding:0 0 16px 0">
+    <div id="upload_btns" align="center">
+        <select onchange="document.getElementById('upload_file').webkitdirectory=this.value;">
+            <option value=""><!--constStr@UploadFile--></option>
+            <option value="1"><!--constStr@UploadFolder--></option>
+        </select>
+        <input id="upload_file" type="file" name="upload_filename" multiple="multiple">
+        <input id="upload_submit" onclick="preup();" value="<!--constStr@Upload-->" type="button">
+    </div>
+    </div>
+        <!--GuestUploadEnd-->
         
     </style>
 </head>
