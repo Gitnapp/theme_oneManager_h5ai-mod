@@ -1,4 +1,5 @@
-# oneManager仿h5ai主题
+# oneManager仿h5ai主题-Mod版本
+### 基于theme_oneManager_h5ai进行一些更改
 
 ## 简单轻量不浮夸 ##
 
