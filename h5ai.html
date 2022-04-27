@@ -192,6 +192,12 @@
                 </center>
                 </div>
             <!--EncryptedEnd-->
+            <!--ReadmemdStart-->
+    var $readme = document.getElementById('readme');
+    if ($readme) {
+        $readme.innerHTML = marked(document.getElementById('readme-md').innerText);
+    }
+            <!--ReadmemdEnd-->
         </div>
     </div>
 
