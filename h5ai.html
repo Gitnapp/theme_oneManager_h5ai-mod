@@ -410,7 +410,7 @@
 
                     asize = newstartsize;
 
-                    var chunksize=5*1024*1024; // chunk size, max 60M. 每小块上传大小，最大60M，微软建议10M
+                    var chunksize=55*1024*1024; // chunk size, max 60M. 每小块上传大小，最大60M，微软建议10M
                     if (totalsize>200*1024*1024) chunksize=10*1024*1024;
 
                     function readblob(start) {
